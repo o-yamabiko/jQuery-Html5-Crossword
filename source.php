@@ -15,7 +15,7 @@ if ($_GET["check"] == 1) {
 ?>
 
 <div>
-<textarea id="create_crossword" name="create_crossword" rows="7" cols="7">
+<textarea id="create_crossword" name="create_crossword" rows="10" cols="50">
 <?php echo $solution; ?>
 </textarea>
 
